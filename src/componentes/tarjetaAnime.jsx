@@ -1,11 +1,5 @@
 
-function TarjetaAnime({
-  titulo,
-  genero,
-  estado,
-  cambiarEstado,
-  eliminarAnime
-}) {
+function TarjetaAnime({titulo,genero,estado,cambiarEstado,eliminarAnime}) {
   return (
     <article>
       <h3>{titulo}</h3>
